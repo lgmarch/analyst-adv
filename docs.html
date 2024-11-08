@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="./css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="./js/uikit.min.js"></script>
+        <script src="./js/uikit-icons.min.js"></script>
+        <title>Документация</title>
+    </head>
+    <body>
+        <div class="tm-header">
+            <div uk-sticky="end: #sticky-dropbar; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" class="uk-sticky">
+                <nav class="uk-navbar-container" style="background-color: #0c2841;">
+                    <div class="uk-container uk-light">
+                        <div uk-navbar="target-y: !.uk-navbar-container; dropbar: true; dropbar-anchor: !.uk-navbar-container" class="uk-navbar">
+
+                            <div class="uk-navbar-left">
+                                <a class="uk-navbar-item uk-logo" href="#">
+                                    <img src="./images/logo.png" width="40px" height="45px" alt="Логотип Restaurant bookings.">
+                                </a>
+                                <ul class="uk-navbar-nav">
+                                    <li>
+                                        <a href="./main.html" role="button" aria-haspopup="true">Домашняя страница</a>
+                                    </li>
+                                    <li class="uk-active">
+                                        <a href="./docs.html" role="button" aria-haspopup="true">Документация</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="uk-navbar-right">
+                                <ul class="uk-navbar-nav">
+                                    <li class="uk-active">
+                                        <a href="#" role="button" aria-haspopup="true" uk-icon="sign-in">Вход</a>
+                                    </li>
+                                    <li class="uk-active">
+                                        <a href="https://github.com/lgmarch/analyst-adv" uk-icon="github"></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="uk-sticky-placeholder" style="height: 80px; width: 1300.67px; margin: 0px;" hidden=""></div>
+        </div>
+
+        <!--
+        <main class="uk-section uk-section-default" uk-height-viewport>
+            <div id="sticky-dropbar" class="uk-container">
+                <div class="uk-card-body uk-width-1-2@m uk-position-center-right">
+                    <h3 class="uk-card-title">Default</h3>
+                    <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-nav">Навигация по умолчанию</button>
+
+            <div id="offcanvas-nav" uk-offcanvas="overlay: false">
+                <div class="uk-offcanvas-bar">
+                    <ul class="uk-nav uk-nav-default">
+                        <li class="uk-active"><a href="#">Активная ссылка</a></li>
+                        <li class="uk-parent">
+                            <a href="#">Ссылка</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="#">Ссылка</a></li>
+                                <li><a href="#">Ссылка</a></li>
+                            </ul>
+                        </li>
+                        <li class="uk-nav-header">Заголовок</li>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Ссылка</a></li>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Ссылка</a></li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Ссылка</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        -->
+        <div class="uk-container uk-container-center uk-margin-top">
+            <div class="uk-grid">
+                <div id="sidebar-left" class="uk-width-medium-3-10">
+                    <!-- Menu -->
+                    <div id="sidebar-menu">
+                        <ul class="uk-nav uk-nav-side">
+                            <li class="uk-active"><a href="#">Menu Link One (active)</a></li>
+                            <li><a href="#">Menu Link Two</a></li>
+                            <li><a href="#">Menu Link Three</a></li>
+                            <li><a href="#">Menu Link Four</a></li>
+                            <li><a href="#">Menu Link Five</a></li>
+                            <li><a href="#">Menu Link Six</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-width-medium-7-10">
+                    <h2>Main Content Area Header</h2>
+                    <p>This is an example of how to put sidebar content (nav, panels, etc.) into an accordion dropdown on small screens. Change the width of the browser window to see it in action. The content is set to change appearance at a breakpoint of 768px.</p>
+                    <p>Donec sollicitudin molestie malesuada. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                    <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
