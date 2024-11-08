@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css" />
+        <!--  -->
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+        <title>Restaurant bookings</title>
+    </head>
+
+    <body>
+        <div class="tm-header">
+            <div uk-sticky="end: #sticky-dropbar; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" class="uk-sticky">
+                <nav class="uk-navbar-container" style="background-color: #0c2841;">
+                    <div class="uk-container uk-light">
+                        <div uk-navbar="target-y: !.uk-navbar-container; dropbar: true; dropbar-anchor: !.uk-navbar-container" class="uk-navbar">
+
+                            <div class="uk-navbar-left">
+                                <a class="uk-navbar-item uk-logo" href="#">
+                                    <img src="./images/logo.png" width="40px" height="45px" alt="Логотип Restaurant bookings.">
+                                </a>
+                                <ul class="uk-navbar-nav">
+                                    <li class="uk-active">
+                                        <a href="">Активна</a></li>
+                                    <li>
+                                        <a href="/main.html" role="button" aria-haspopup="true">Домашняя страница</a>
+                                    </li>
+                                    <li>
+                                        <a href="" role="button" aria-haspopup="true">Документация</a>
+                                    </li>
+                                    <li>
+                                        <a href="" role="button" aria-haspopup="true">Элемент</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="uk-navbar-right">
+                                <ul class="uk-navbar-nav">
+                                    <li class="uk-active">
+                                        <a href="#" role="button" aria-haspopup="true" uk-icon="sign-in">Вход</a>
+                                    </li>
+                                    <li class="uk-active">
+                                        <a href="https://github.com/lgmarch/analyst-adv" uk-icon="github"></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="uk-sticky-placeholder" style="height: 80px; width: 1300.67px; margin: 0px;" hidden=""></div>
+        </div>
+
+        <div class="uk-section uk-section-default uk-background-cover" data-srcset="./images/stars.jpeg" uk-img uk-height-viewport>
+            <div id="sticky-dropbar" class="uk-container uk-light">
+                <div class="uk-card-body uk-width-1-2@m uk-position-center-right">
+                    <h3 class="uk-card-title">Default</h3>
+                    <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
